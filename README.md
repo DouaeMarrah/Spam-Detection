@@ -106,16 +106,23 @@ A video demonstration is available, showcasing the system's functionality:
 
 ## File Structure
 
-├── app.py # Main Flask application
+├── app.py  Main Flask application
+
 ├── train_model.py # Script for training the ML model
+
 ├── init_cassandra.py # Script to create the Cassandra keyspace and table
+
 ├── import_data.py # Script to import data from spam.csv into Cassandra
-├── spam.csv # Example dataset for training (not provided here)
+
+├── spam.csv # Example dataset for training 
+
 ├── templates/
 │ └── index.html # Simple web interface HTML file
+
 ├── requirements.txt # Python dependencies
+
 ├── docker-compose.yml # Docker Compose configuration
-└── Report.pdf # Full project report (in French)
+
 
 ## Future Enhancements
 
